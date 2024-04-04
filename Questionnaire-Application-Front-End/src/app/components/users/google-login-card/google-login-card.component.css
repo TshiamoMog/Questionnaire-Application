@@ -1,0 +1,18 @@
+.google-card-container{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-weight: bold;
+    color: #7c7c7c;
+
+    img{
+        position: absolute;
+        width: 25px;
+        left: 6%;
+        top:50%;
+        transform: translateY(-50%);
+    }
+}

@@ -1,0 +1,94 @@
+<!-- <p>registration works!</p> -->
+<div class="registration-container">
+    <div [formGroup]="registerFormControl" class="registration-content">
+        <p class="app-name">ProbeKIT</p>
+
+        <p class="title">Register</p>
+        <p class="title-intro">Register to help gather data for your fellow researcher</p>
+
+        <div class="google-card">
+            <app-google-login-card/>
+        </div>
+
+        <div class="or-line-divder">
+            <p> or </p>
+        </div>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Mobile Number, or Email</mat-label>
+            <input formControlName="phoneNumber" matInput type="text">
+
+            <mat-error *ngIf="registerFormControl.controls['phoneNumber'].hasError('required')">
+            Mobile number, or email is required
+            </mat-error>
+            <mat-error *ngIf="registerFormControl.controls['phoneNumber'].hasError('email')">
+                Invalid email format
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Full Name</mat-label>
+            <input formControlName="name" matInput type="text">
+
+            <mat-error *ngIf="registerFormControl.controls['name'].hasError('required')">
+            Full name is required
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Username</mat-label>
+            <input formControlName="username" matInput type="text">
+
+            <mat-error *ngIf="registerFormControl.controls['username'].hasError('required')">
+                Username is required
+            </mat-error>
+            <mat-error *ngIf="registerFormControl.controls['username'].hasError('email')">
+                Invalid email format
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input formControlName="password" matInput [type]=" hide ? 'password' : 'text' "/>
+            <mat-icon (click)="hide = !hide " matSuffix>{{ hide ? 'visibility_off' : 'visibility' }}</mat-icon>
+
+            <mat-error *ngIf="registerFormControl.controls['password'].hasError('required')">
+                Password is required
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Confirm Password</mat-label>
+            <input formControlName="confirmPassword" matInput [type]=" hide ? 'password' : 'text' "/>
+            <mat-icon (click)="hide = !hide " matSuffix>{{ hide ? 'visibility_off' : 'visibility' }}</mat-icon>
+
+            <mat-error *ngIf="registerFormControl.controls['confirmPassword'].hasError('required')">
+                Please confirm your password
+            </mat-error>
+        </mat-form-field>
+
+        <input type="submit" value="Register">
+
+        <p class="alternative">Have an account?&nbsp;&nbsp;&nbsp;<span [routerLink]="'/login'">Log in</span></p>
+
+    </div>
+</div>
+
+<!-- <body>
+    <div class="login-containers">
+        <div class="login-container">
+            <h2>Questionnaire Application</h2>
+            <form action="#" method="POST">
+                <input type="text" name="username" placeholder="Username, or email" required="">
+                <input type="password" name="password" placeholder="Password" required="">
+                <input type="submit" value="Log in">
+                <p>- or -</p>
+                <input type="submit" value="Log in with Google"><i class="ri-google-fill"></i>
+                <p><a href="">Forgot password?</a></p>
+            </form>
+        </div>
+        <div class="login-container">
+            Don't have an account? <a href="">Register</a>
+        </div>
+    </div>
+</body> -->
