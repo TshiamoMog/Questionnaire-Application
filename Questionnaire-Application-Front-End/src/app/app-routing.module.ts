@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './components/users/login/login.component';
 import { RegistrationComponent } from './components/users/registration/registration.component';
+import { ResetPasswordComponent } from './components/users/reset-password/reset-password.component';
+import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [{
   path: '',
@@ -15,7 +17,15 @@ const routes: Routes = [{
 },
 {
   path: 'register',
-  component: RegistrationComponent
+  component: RegistrationComponent,
+},
+{
+  path: 'reset-password',
+  component: ResetPasswordComponent,
+},
+{
+  path: 'home',
+  component: HomeComponent,
 }];
 
 @NgModule({

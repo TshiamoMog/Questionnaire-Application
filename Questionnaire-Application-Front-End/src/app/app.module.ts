@@ -9,14 +9,18 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon'
 import { LoginComponent } from './components/users/login/login.component';
 import { RegistrationComponent } from './components/users/registration/registration.component';
-import { GoogleLoginCardComponent } from './components/users/google-login-card/google-login-card.component';
+import { GoogleLoginCardComponent } from './components/helpers/google-login-card/google-login-card.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ResetPasswordComponent } from './components/users/reset-password/reset-password.component';
+import { HomeComponent } from './components/home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegistrationComponent,
-    GoogleLoginCardComponent
+    GoogleLoginCardComponent,
+    ResetPasswordComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

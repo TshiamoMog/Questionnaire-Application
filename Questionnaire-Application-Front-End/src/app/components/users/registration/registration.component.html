@@ -4,7 +4,7 @@
         <p class="app-name">ProbeKIT</p>
 
         <p class="title">Register</p>
-        <p class="title-intro">Register to help gather data for your fellow researcher</p>
+        <p class="title-intro">Register now to take part in your first survey from esteemed researchers!</p>
 
         <div class="google-card">
             <app-google-login-card/>
@@ -21,8 +21,11 @@
             <mat-error *ngIf="registerFormControl.controls['phoneNumber'].hasError('required')">
             Mobile number, or email is required
             </mat-error>
-            <mat-error *ngIf="registerFormControl.controls['phoneNumber'].hasError('email')">
-                Invalid email format
+            <mat-error *ngIf="registerFormControl.controls['phoneNumber'].hasError('email') && isFormControlValueString()">
+                Please enter a valid email address
+            </mat-error>
+            <mat-error *ngIf="!registerFormControl.controls['phoneNumber'].hasError('required') && registerFormControl.controls['phoneNumber'].hasError('phoneNumber') && !isFormControlValueString()">
+                Please enter a valid phone number
             </mat-error>
         </mat-form-field>
 
@@ -73,22 +76,3 @@
 
     </div>
 </div>
-
-<!-- <body>
-    <div class="login-containers">
-        <div class="login-container">
-            <h2>Questionnaire Application</h2>
-            <form action="#" method="POST">
-                <input type="text" name="username" placeholder="Username, or email" required="">
-                <input type="password" name="password" placeholder="Password" required="">
-                <input type="submit" value="Log in">
-                <p>- or -</p>
-                <input type="submit" value="Log in with Google"><i class="ri-google-fill"></i>
-                <p><a href="">Forgot password?</a></p>
-            </form>
-        </div>
-        <div class="login-container">
-            Don't have an account? <a href="">Register</a>
-        </div>
-    </div>
-</body> -->

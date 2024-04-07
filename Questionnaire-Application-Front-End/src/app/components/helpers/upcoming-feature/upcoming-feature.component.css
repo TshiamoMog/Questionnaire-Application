@@ -1,0 +1,10 @@
+p{
+    margin-top: 40vh;
+    margin-left: 25%;
+    font-size: 5rem;
+}
+span{
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
