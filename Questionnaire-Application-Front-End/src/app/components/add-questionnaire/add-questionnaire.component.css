@@ -1,3 +1,37 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.active {
+    padding: 20px 20px;
+    float:right
+}
+
+.section {
+    padding: 5rem 1rem;
+}
+.section__title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
 .container {
     max-width: 1130px;
     margin: auto;
@@ -8,30 +42,17 @@
     gap: 1.5rem;
 }
 
-.section {
-    padding: 5rem 1rem;
-}
-.section__title {
-    font-size: 1.75rem;
-    margin-bottom: 2rem;
-    margin-top: 1.5rem;
-}
-
-.main {
-    overflow: hidden;
-}
-
-.questionnaires__container{
-    margin-top: 1.5rem;
-    grid-template-columns: repeat(3, 360px);
-    row-gap: 2rem;
-}
-
 .questionnaires__card{
     padding: 1rem 1rem 2rem;
     box-shadow: 0 12px 24px black;
     transition: background-color .4s;
     background-color: transparent;
+}
+
+.question__container{
+    margin-top: 1.5rem;
+    grid-template-columns: repeat(3, 350px);
+    row-gap: 2rem;
 }
 
 .questionnaires__button{
@@ -45,7 +66,7 @@
     margin-bottom: 1.25rem;
 }
 
-.questionnaires__subtitle{
+.questionnaires__title{
     position: relative;
     display: inline-block;
     font-size: 0.813rem;
@@ -55,7 +76,7 @@
     padding-left: 1.75rem;
 }
 
-.questionnaires__subtitle::after{
+.questionnaires__title::after{
     content: '';
     width: 20px;
     height: 1px;
@@ -84,6 +105,13 @@
 .questionnaires__link:hover,
 .questionnaires__link:hover i{
     color: white;
+}
+
+.question__card{
+    padding: 1rem 1rem 2rem;
+    box-shadow: 0 12px 24px black;
+    transition: background-color .4s;
+    background-color: transparent;
 }
 
 .button{

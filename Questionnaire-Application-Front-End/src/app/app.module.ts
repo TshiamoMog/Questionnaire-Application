@@ -13,6 +13,8 @@ import { GoogleLoginCardComponent } from './components/helpers/google-login-card
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ResetPasswordComponent } from './components/users/reset-password/reset-password.component';
 import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/helpers/header/header.component';
+import { AddQuestionnaireComponent } from './components/add-questionnaire/add-questionnaire.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +23,8 @@ import { HomeComponent } from './components/home/home.component';
     GoogleLoginCardComponent,
     ResetPasswordComponent,
     HomeComponent,
+    HeaderComponent,
+    AddQuestionnaireComponent,
   ],
   imports: [
     BrowserModule,

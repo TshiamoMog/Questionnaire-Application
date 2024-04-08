@@ -5,6 +5,7 @@ import { LoginComponent } from './components/users/login/login.component';
 import { RegistrationComponent } from './components/users/registration/registration.component';
 import { ResetPasswordComponent } from './components/users/reset-password/reset-password.component';
 import { HomeComponent } from './components/home/home.component';
+import { AddQuestionnaireComponent } from './components/add-questionnaire/add-questionnaire.component';
 
 const routes: Routes = [{
   path: '',
@@ -26,6 +27,10 @@ const routes: Routes = [{
 {
   path: 'home',
   component: HomeComponent,
+},
+{
+  path: 'create-questionnaire',
+  component: AddQuestionnaireComponent,
 }];
 
 @NgModule({

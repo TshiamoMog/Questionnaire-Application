@@ -1,0 +1,38 @@
+header {
+    background-color: #0078d4;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transition: background-color .4s box-shadow .4s;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    li {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 10px;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+
+    p {
+        margin: 0;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    
+    .active {
+        padding: 20px 20px;
+        float:right
+    }
+}

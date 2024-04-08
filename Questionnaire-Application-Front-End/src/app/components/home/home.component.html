@@ -1,21 +1,75 @@
 <!-- <p>home works!</p> -->
-<header>
-    <ul>
-        <li><i class="ri-apps-line"></i></li>
-        <li><p>ProbeKIT - by T.Mogoai</p></li>
-        <li class="active" href=""><i class="ri-profile-line"></i></li>
-    </ul>
-</header>
-
+<app-header/>
 <section class="questionnaire section">
+    <div class="container">    
+        <button class="button button2" [routerLink]="'/create-questionnaire'"><i class="ri-add-line">&#160;&#160;&#160;</i>New Questionnaire</button>
+    </div>
+
     <div class="container">
-        <p class="section__title">Create Questionnaires</p>
-        <p class="section__description">Get started quickly with templates or build custom forms to gather responses from anyone, anywhere.</p>
-    
-        <button class="button"><i class="ri-add-box-line">&#160;&#160;&#160;</i>New Questionnaire</button>
+        <p class="section__title">My Questionnaires</p>
     </div>
 
     <div class="questionnaires__container container grid">
+        <article class="questionnaires__card">
+            <div class="questionnaires__content">
+                <p class="questionnaires__subtitle">Foundational</p>
+                <p class="questionnaires__title">Edcation</p>
+
+                <p class="questionnaires__description">
+                    A form to gather information about education history
+                </p>
+            </div>
+
+            <button class="questionnaires__buttons button"><i class="ri-pen-nib-line">&#160;&nbsp;&#160;</i>Edit</button>
+        </article>
+        <article class="questionnaires__card">
+            <div class="questionnaires__content">
+                <p class="questionnaires__subtitle">Foundational</p>
+                <p class="questionnaires__title">Edcation</p>
+
+                <p class="questionnaires__description">
+                    A form to gather information about education history
+                </p>
+            </div>
+
+            <button class="questionnaires__buttons button"><i class="ri-pen-nib-line">&#160;&nbsp;&#160;</i>Edit</button>
+        </article>
+        <article class="questionnaires__card">
+            <div class="questionnaires__content">
+                <p class="questionnaires__subtitle">Foundational</p>
+                <p class="questionnaires__title">Edcation</p>
+
+                <p class="questionnaires__description">
+                    A form to gather information about education history
+                </p>
+            </div>
+
+            <button class="questionnaires__buttons button"><i class="ri-pen-nib-line">&#160;&nbsp;&#160;</i>Edit</button>
+        </article>
+        <article class="questionnaires__card">
+            <div class="questionnaires__content">
+                <p class="questionnaires__subtitle">Foundational</p>
+                <p class="questionnaires__title">Edcation</p>
+
+                <p class="questionnaires__description">
+                    A form to gather information about education history
+                </p>
+            </div>
+
+            <button class="questionnaires__buttons button"><i class="ri-pen-nib-line">&#160;&nbsp;&#160;</i>Edit</button>
+        </article>
+        <article class="questionnaires__card">
+            <div class="questionnaires__content">
+                <p class="questionnaires__subtitle">Foundational</p>
+                <p class="questionnaires__title">Edcation</p>
+
+                <p class="questionnaires__description">
+                    A form to gather information about education history
+                </p>
+            </div>
+
+            <button class="questionnaires__buttons button"><i class="ri-pen-nib-line">&#160;&nbsp;&#160;</i>Edit</button>
+        </article>
         <article class="questionnaires__card">
             <div class="questionnaires__content">
                 <p class="questionnaires__subtitle">Foundational</p>
