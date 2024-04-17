@@ -1,0 +1,23 @@
+<!-- <p>send-token works!</p> -->
+<div class="send-token-container">
+    <div [formGroup]="sendTokenFormControl" class="send-token-content">
+        <i class="ri-verified-badge-line form-icon"></i>
+
+        <p class="title">Enter The Verification Token</p>
+        <p class="title-intro">Check your email for a verification token.</p>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Verification Token</mat-label>
+            <input formControlName="token" matInput/>
+
+            <mat-error *ngIf="sendTokenFormControl.controls['token'].hasError('required')">
+                Verification Token is required
+            </mat-error>
+        </mat-form-field>
+        <p>Resend Code</p>
+
+        <input type="submit" [routerLink]="'/reset-password'" value="Submit">
+
+        <p>If you don't see the token in your inbox, check your spam folder. If it's not there, the email address may not be confirmed, or it may not match an existing ProbeKIT account.</p>
+    </div>
+</div>

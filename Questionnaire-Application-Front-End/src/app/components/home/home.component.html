@@ -9,75 +9,14 @@
         <p class="section__title">My Questionnaires</p>
     </div>
 
-    <div class="questionnaires__container container grid">
+    <div *ngFor="let questionnaire of questionnaires" class="questionnaires__container container grid">
         <article class="questionnaires__card">
             <div class="questionnaires__content">
-                <p class="questionnaires__subtitle">Foundational</p>
-                <p class="questionnaires__title">Edcation</p>
+                <p class="questionnaires__subtitle">{{ questionnaire.subTitle }}</p>
+                <p class="questionnaires__title">{{ questionnaire.title }}</p>
 
-                <p class="questionnaires__description">
-                    A form to gather information about education history
-                </p>
-            </div>
-
-            <button class="questionnaires__buttons button"><i class="ri-pen-nib-line">&#160;&nbsp;&#160;</i>Edit</button>
-        </article>
-        <article class="questionnaires__card">
-            <div class="questionnaires__content">
-                <p class="questionnaires__subtitle">Foundational</p>
-                <p class="questionnaires__title">Edcation</p>
-
-                <p class="questionnaires__description">
-                    A form to gather information about education history
-                </p>
-            </div>
-
-            <button class="questionnaires__buttons button"><i class="ri-pen-nib-line">&#160;&nbsp;&#160;</i>Edit</button>
-        </article>
-        <article class="questionnaires__card">
-            <div class="questionnaires__content">
-                <p class="questionnaires__subtitle">Foundational</p>
-                <p class="questionnaires__title">Edcation</p>
-
-                <p class="questionnaires__description">
-                    A form to gather information about education history
-                </p>
-            </div>
-
-            <button class="questionnaires__buttons button"><i class="ri-pen-nib-line">&#160;&nbsp;&#160;</i>Edit</button>
-        </article>
-        <article class="questionnaires__card">
-            <div class="questionnaires__content">
-                <p class="questionnaires__subtitle">Foundational</p>
-                <p class="questionnaires__title">Edcation</p>
-
-                <p class="questionnaires__description">
-                    A form to gather information about education history
-                </p>
-            </div>
-
-            <button class="questionnaires__buttons button"><i class="ri-pen-nib-line">&#160;&nbsp;&#160;</i>Edit</button>
-        </article>
-        <article class="questionnaires__card">
-            <div class="questionnaires__content">
-                <p class="questionnaires__subtitle">Foundational</p>
-                <p class="questionnaires__title">Edcation</p>
-
-                <p class="questionnaires__description">
-                    A form to gather information about education history
-                </p>
-            </div>
-
-            <button class="questionnaires__buttons button"><i class="ri-pen-nib-line">&#160;&nbsp;&#160;</i>Edit</button>
-        </article>
-        <article class="questionnaires__card">
-            <div class="questionnaires__content">
-                <p class="questionnaires__subtitle">Foundational</p>
-                <p class="questionnaires__title">Edcation</p>
-
-                <p class="questionnaires__description">
-                    A form to gather information about education history
-                </p>
+                <p class="questionnaires__description">{{ questionnaire.description }}</p>
+                <p class="questionnaires__subtitle">{{ questionnaire.published }}</p>
             </div>
 
             <button class="questionnaires__buttons button"><i class="ri-pen-nib-line">&#160;&nbsp;&#160;</i>Edit</button>

@@ -11,10 +11,15 @@ import { LoginComponent } from './components/users/login/login.component';
 import { RegistrationComponent } from './components/users/registration/registration.component';
 import { GoogleLoginCardComponent } from './components/helpers/google-login-card/google-login-card.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ResetPasswordComponent } from './components/users/reset-password/reset-password.component';
+import { ResetPasswordComponent } from './components/users/forgot-password/reset-password/reset-password.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/helpers/header/header.component';
-import { AddQuestionnaireComponent } from './components/add-questionnaire/add-questionnaire.component';
+import { AddQuestionnaireComponent } from './components/questionnaires/add-questionnaire/add-questionnaire.component';
+import { ForgotPasswordComponent } from './components/users/forgot-password/forgot-password.component';
+import { SendTokenComponent } from './components/users/forgot-password/send-token/send-token.component';
+import { NewPasswordComponent } from './components/users/forgot-password/new-password/new-password.component';
+import { UserCardComponent } from './components/helpers/user-card/user-card.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +30,10 @@ import { AddQuestionnaireComponent } from './components/add-questionnaire/add-qu
     HomeComponent,
     HeaderComponent,
     AddQuestionnaireComponent,
+    ForgotPasswordComponent,
+    SendTokenComponent,
+    NewPasswordComponent,
+    UserCardComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +43,8 @@ import { AddQuestionnaireComponent } from './components/add-questionnaire/add-qu
     MatFormFieldModule,
     MatIconModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

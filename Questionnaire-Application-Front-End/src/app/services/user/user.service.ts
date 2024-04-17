@@ -7,13 +7,15 @@ import { User } from "../../models/user/user.model"
 export class UserService {
 
   constructor() { }
+  url = ""
 
   public getUsers() : User[] {
     let user = new User();
     user.id = 1;
-    user.name = "Robert";
     user.email = "bob.r@gmail.com";
-    user.role = 1;
+    user.phoneNumber = "0123456789"
+    user.name = "Robert";
+    user.username = "rob_the.black5000"
 
     return [user];
   }
