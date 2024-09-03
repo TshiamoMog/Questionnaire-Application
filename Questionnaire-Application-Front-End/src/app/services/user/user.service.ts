@@ -1,22 +1,38 @@
 import { Injectable } from '@angular/core';
 import { User } from "../../models/user/user.model"
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { environment } from '../../../environments/environment.development';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
+  private url = "User";
 
-  constructor() { }
-  url = ""
+  constructor(private http: HttpClient) { }
 
-  public getUsers() : User[] {
-    let user = new User();
-    user.id = 1;
-    user.email = "bob.r@gmail.com";
-    user.phoneNumber = "0123456789"
-    user.name = "Robert";
-    user.username = "rob_the.black5000"
+  public getUsers() : Observable<User[]> {
+    return this.http.get<User[]>(`${environment.apiUrl}/${this.url}`) ;
+  }
 
-    return [user];
+  public getUserById() : Observable<User[]> {
+    return this.http.get<User[]>(`${environment.apiUrl}/${this.url}/id`);
+  }
+
+  public updateUser(user: User) : Observable<User[]> {
+    return this.http.put<User[]>(`${environment.apiUrl}/${this.url}`, user);
+  }
+
+  public registerUser(user: User) : Observable<User> {
+    return this.http.post<User>(`${environment.apiUrl}/${this.url}`, user);
+  }
+
+  public loginUser(user: User) : Observable<User> {
+    return this.http.post<User>(`${environment.apiUrl}/${this.url}`, user);
+  }
+
+  public deleteUser(user: User) : Observable<User[]> {
+    return this.http.delete<User[]>(`${environment.apiUrl}/${this.url}/${user.id}`);
   }
 }

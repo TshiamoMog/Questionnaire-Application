@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|c:\\users\\tshiamo\\onedrive\\documents\\portfolio\\capstone projects\\questionnaire-application\\questionnaire-application-back-end\\questionnaire-app-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|c:\\users\\tshiamo\\onedrive\\documents\\portfolio\\capstone projects\\questionnaire-application\\questionnaire-application-back-end\\questionnaire-app-api\\entities\\questionnaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|solutionrelative:entities\\questionnaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|c:\\users\\tshiamo\\onedrive\\documents\\portfolio\\capstone projects\\questionnaire-application\\questionnaire-application-back-end\\questionnaire-app-api\\controllers\\questionnairecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|solutionrelative:controllers\\questionnairecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|c:\\users\\tshiamo\\onedrive\\documents\\portfolio\\capstone projects\\questionnaire-application\\questionnaire-application-back-end\\questionnaire-app-api\\entities\\questionnaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|solutionrelative:entities\\questionnaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|c:\\users\\tshiamo\\onedrive\\documents\\portfolio\\capstone projects\\questionnaire-application\\questionnaire-application-back-end\\questionnaire-app-api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|c:\\users\\tshiamo\\onedrive\\documents\\portfolio\\capstone projects\\questionnaire-application\\questionnaire-application-back-end\\questionnaire-app-api\\datatransferobjects\\questionnairedtos\\questionnairecreaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|solutionrelative:datatransferobjects\\questionnairedtos\\questionnairecreaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|c:\\users\\tshiamo\\onedrive\\documents\\portfolio\\capstone projects\\questionnaire-application\\questionnaire-application-back-end\\questionnaire-app-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|c:\\users\\tshiamo\\onedrive\\documents\\portfolio\\capstone projects\\questionnaire-application\\questionnaire-application-back-end\\questionnaire-app-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|c:\\users\\tshiamo\\onedrive\\documents\\portfolio\\capstone projects\\questionnaire-application\\questionnaire-application-back-end\\questionnaire-app-api\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|c:\\users\\tshiamo\\onedrive\\documents\\portfolio\\capstone projects\\questionnaire-application\\questionnaire-application-back-end\\questionnaire-app-api\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|solutionrelative:entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|c:\\users\\tshiamo\\onedrive\\documents\\portfolio\\capstone projects\\questionnaire-application\\questionnaire-application-back-end\\questionnaire-app-api\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE86E0BA-98FC-45FF-87BB-898C216E3E7C}|Questionnaire-App-API.csproj|solutionrelative:entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +42,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Entities\\User.cs",
+              "RelativeToolTip": "Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:03:17.213Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Questionnaire.cs",
+              "DocumentMoniker": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Entities\\Questionnaire.cs",
+              "RelativeDocumentMoniker": "Entities\\Questionnaire.cs",
+              "ToolTip": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Entities\\Questionnaire.cs",
+              "RelativeToolTip": "Entities\\Questionnaire.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:50:16.761Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Entities\\Question.cs",
+              "RelativeDocumentMoniker": "Entities\\Question.cs",
+              "ToolTip": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Entities\\Question.cs",
+              "RelativeToolTip": "Entities\\Question.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:42:50.032Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Entities\\Answer.cs",
+              "RelativeDocumentMoniker": "Entities\\Answer.cs",
+              "ToolTip": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Entities\\Answer.cs",
+              "RelativeToolTip": "Entities\\Answer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:43:26.285Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -55,28 +121,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "QuestionnaireCreateRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\DataTransferObjects\\QuestionnaireDTOs\\QuestionnaireCreateRequestDTO.cs",
-              "RelativeDocumentMoniker": "DataTransferObjects\\QuestionnaireDTOs\\QuestionnaireCreateRequestDTO.cs",
-              "ToolTip": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\DataTransferObjects\\QuestionnaireDTOs\\QuestionnaireCreateRequestDTO.cs",
-              "RelativeToolTip": "DataTransferObjects\\QuestionnaireDTOs\\QuestionnaireCreateRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAMgAAAAAAAAAAAApwNYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T13:18:58.115Z",
+              "WhenOpened": "2024-08-16T09:59:36.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAwwB0AAAAhAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowA4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T08:53:04.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T08:53:04.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Data\\DataContext.cs",
+              "RelativeToolTip": "Data\\DataContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T08:51:33.64Z"
             },
             {
               "$type": "Document",
@@ -86,35 +163,9 @@
               "RelativeDocumentMoniker": "Controllers\\QuestionnaireController.cs",
               "ToolTip": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Controllers\\QuestionnaireController.cs",
               "RelativeToolTip": "Controllers\\QuestionnaireController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAwDoAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAjwCgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T12:27:20.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Questionnaire.cs",
-              "DocumentMoniker": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Entities\\Questionnaire.cs",
-              "RelativeDocumentMoniker": "Entities\\Questionnaire.cs",
-              "ToolTip": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Entities\\Questionnaire.cs",
-              "RelativeToolTip": "Entities\\Questionnaire.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T08:50:16.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\Tshiamo\\OneDrive\\Documents\\Portfolio\\Capstone Projects\\Questionnaire-Application\\Questionnaire-Application-Back-End\\Questionnaire-App-API\\Data\\DataContext.cs",
-              "RelativeToolTip": "Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T08:51:33.64Z",
               "EditorCaption": ""
             }
           ]

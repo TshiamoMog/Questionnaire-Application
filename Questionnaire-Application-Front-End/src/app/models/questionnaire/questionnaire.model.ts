@@ -1,7 +1,7 @@
-export class Questionnaire {
-    id?: number;
-    title = "";
-    subTitle = "";
-    description = "";
-    published: boolean = false;
+export interface Questionnaire {
+    id?: string;
+    title: string;
+    subTitle: string;
+    description: string;
+    published: boolean;
 }

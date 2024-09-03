@@ -20,6 +20,9 @@ import { SendTokenComponent } from './components/users/forgot-password/send-toke
 import { NewPasswordComponent } from './components/users/forgot-password/new-password/new-password.component';
 import { UserCardComponent } from './components/helpers/user-card/user-card.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MyQuestionnaireComponent } from './components/questionnaires/my-questionnaire/my-questionnaire.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +37,7 @@ import { HttpClientModule } from '@angular/common/http';
     SendTokenComponent,
     NewPasswordComponent,
     UserCardComponent,
+    MyQuestionnaireComponent,
   ],
   imports: [
     BrowserModule,
@@ -46,7 +50,9 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

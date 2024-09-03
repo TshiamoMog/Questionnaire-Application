@@ -9,6 +9,7 @@ import { AddQuestionnaireComponent } from './components/questionnaires/add-quest
 import { ForgotPasswordComponent } from './components/users/forgot-password/forgot-password.component';
 import { SendTokenComponent } from './components/users/forgot-password/send-token/send-token.component';
 import { NewPasswordComponent } from './components/users/forgot-password/new-password/new-password.component';
+import { MyQuestionnaireComponent } from './components/questionnaires/my-questionnaire/my-questionnaire.component';
 
 const routes: Routes = [{
   path: '',
@@ -46,6 +47,10 @@ const routes: Routes = [{
 {
   path: 'create-questionnaire',
   component: AddQuestionnaireComponent,
+},
+{
+  path: 'questionnaire',
+  component: MyQuestionnaireComponent,
 }];
 
 @NgModule({

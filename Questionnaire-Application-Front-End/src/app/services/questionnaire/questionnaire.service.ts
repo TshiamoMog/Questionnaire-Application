@@ -15,4 +15,8 @@ export class QuestionnaireService {
   public getQuestionnaires() : Observable<Questionnaire[]> {
     return this.http.get<Questionnaire[]>(`${environment.apiUrl}/${this.url}`);
   }
+
+  public getQuestionnaireById() : Observable<Questionnaire[]> {
+    return this.http.get<Questionnaire[]>(`${environment.apiUrl}/${this.url}/id`);
+  }
 }

@@ -1,0 +1,139 @@
+<!-- <p>my-questionnaire works!</p> -->
+<app-header/>
+<section class="questionnaire section">
+    <div class="container">    
+        <ul>
+            <li><p class="section__subtitle">Questions</p></li>
+            <li><p class="section__subtitle">Responses</p></li>
+        </ul>
+        <button class="button button2" [routerLink]="'/home'"><i class="ri-arrow-left-line">&#160;&#160;&#160;</i>BACK</button>
+    </div>
+    <div class="container">
+        <article class="questionnaires__card">
+            <p class="section__title">hey</p>
+            <p class="questionnaires__title">Description</p>
+
+            <p class="questionnaires__description">
+                A section will group questions to a division or categorization within a larger form questionnaire. It's a way of organizing related questions under a common theme or topic.
+            </p>
+        </article>
+        <article *ngIf="questionnaire" class="questionnaires__card">
+            <p class="section__title">{{ questionnaire.title }}</p>
+            <p class="questionnaires__title">Section</p>
+
+            <p class="questionnaires__description">
+                <input [(ngModel)] = "questionnaire.description" placeholder="questionnaire.description"/>
+                A section will group questions to a division or categorization within a larger form questionnaire. It's a way of organizing related questions under a common theme or topic.
+            </p>
+            <div class="question__container container">
+                <article class="questions__card"></article>
+                <article class="questions__card"></article>
+            </div>
+            <div class="question__container container grid">
+                <article class="question__card">
+                    <button (click)="UpdateQuestionnaire(questionnaire)" class="questionnaires__buttons button"><i class="ri-save-line">&#160;&nbsp;&#160;</i>Save</button>
+                    <button (click)="DeleteQuestionnaire(questionnaire)" class="questionnaires__buttons button"><i class="ri-delete-bin-line">&#160;&nbsp;&#160;</i>Delete</button>
+                </article>
+                <article class="question__card">
+                    <div class="questionnaires__content">
+                        <p class="questionnaires__title">Section</p>
+        
+                        <p class="questionnaires__description">
+                            A section will group questions to a division or categorization within a larger form questionnaire. It's a way of organizing related questions under a common theme or topic.
+                        </p>
+                    </div>
+        
+                    <button class="questionnaires__buttons button"><i class="ri-layout-row-line">&#160;&nbsp;&#160;</i>Add</button>
+                </article>
+                <article class="question__card">
+                    <div class="questionnaires__content">
+                        <p class="questionnaires__title">Multiple Choice</p>
+        
+                        <p class="questionnaires__description">
+                            The respondent will be presented with a statement or question, followed by several options or choices, for the respondent to then select the correct answer from.
+                        </p>
+                    </div>
+        
+                    <button class="questionnaires__buttons button"><i class="ri-radio-button-line">&#160;&nbsp;&#160;</i>Add</button>
+                </article>
+                <article class="question__card">
+                    <div class="questionnaires__content">
+                        <p class="questionnaires__title">Multiple Choice (Check-Box)</p>
+        
+                        <p class="questionnaires__description">
+                            The respondent will be presented with a statement or question, followed by several options or choices, for the respondent to then select the multiple correct answers from.
+                        </p>
+                    </div>
+        
+                    <button class="questionnaires__buttons button"><i class="ri-checkbox-line">&#160;&nbsp;&#160;</i>Add</button>
+                </article>
+                <article class="question__card">
+                    <div class="questionnaires__content">
+                        <p class="questionnaires__title">Ranking</p>
+        
+                        <p class="questionnaires__description">
+                            The respondents will be asked to order or prioritize a set of options based on the question specifications.
+                        </p>
+                    </div>
+        
+                    <button class="questionnaires__buttons button"><i class="ri-sort-desc">&#160;&nbsp;&#160;</i>Add</button>
+                </article>
+                <article class="question__card">
+                    <div class="questionnaires__content">
+                        <p class="questionnaires__title">Rating</p>
+        
+                        <p class="questionnaires__description">
+                            The respondents will be asked to provide a rating based on a predefined scale like 1 - 5, 1 - 10 or 0 - 100%.
+                        </p>
+                    </div>
+        
+                    <button class="questionnaires__buttons button"><i class="ri-star-line">&#160;&nbsp;&#160;</i>Add</button>
+                </article>
+                <article class="question__card">
+                    <div class="questionnaires__content">
+                        <p class="questionnaires__title">Date</p>
+        
+                        <p class="questionnaires__description">
+                            The respondents will be required to provide a specific date, represented by a calendar, to capture information such as their birthday.
+                        </p>
+                    </div>
+        
+                    <button class="questionnaires__buttons button"><i class="ri-calendar-event-line">&#160;&nbsp;&#160;</i>Add</button>
+                </article>
+                <article class="question__card">
+                    <div class="questionnaires__content">
+                        <p class="questionnaires__title">Likert</p>
+        
+                        <p class="questionnaires__description">
+                            The respondents will be presented with a statement and asks them to indicate their agreement or disagreement using a scale.
+                        </p>
+                    </div>
+        
+                    <button class="questionnaires__buttons button"><i class="ri-emotion-happy-line"></i>&#160;&nbsp;-&nbsp;&#160;<i class="ri-emotion-unhappy-line"></i>&nbsp;&#160;Add</button>
+                </article>
+                <article class="question__card">
+                    <div class="questionnaires__content">
+                        <p class="questionnaires__title">Open Ended</p>
+        
+                        <p class="questionnaires__description">
+                            The respondents will be asked to provide a detailed and personalized response, with provided options as answers to the question.
+                        </p>
+                    </div>
+        
+                    <button class="questionnaires__buttons button"><i class="ri-text">&#160;&nbsp;&#160;</i>Add</button>
+                </article>
+                <article class="question__card">
+                    <div class="questionnaires__content">
+                        <p class="questionnaires__title">Upload</p>
+        
+                        <p class="questionnaires__description">
+                            The respondents will be required to submit a file or document as part of their response to the question.
+                        </p>
+                    </div>
+        
+                    <button class="questionnaires__buttons button"><i class="ri-folder-upload-line">&#160;&nbsp;&#160;</i>Add</button>
+                </article>
+            </div>
+        </article>
+    </div>
+</section>
